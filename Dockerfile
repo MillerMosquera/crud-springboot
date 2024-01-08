@@ -1,0 +1,1 @@
+FROM openjdk:21ADD ./docker-spring-boot.jar docker-sprint-boot.jarLABEL authors="Miller"ENTRYPOINT ["java", "-jar", "docker-spring-boot.jar"]
