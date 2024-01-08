@@ -1,0 +1,1 @@
+package com.example.crudspringboot.Repository;import com.example.crudspringboot.Entity.Users;import org.springframework.data.repository.CrudRepository;//Users Repositorypublic interface IUsersRepository extends CrudRepository<Users,Long> {}
